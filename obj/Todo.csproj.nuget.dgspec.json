@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj": {}
+    "c:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj": {
+    "c:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj",
+        "projectUniqueName": "c:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj",
         "projectName": "Todo",
-        "projectPath": "C:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj",
+        "projectPath": "c:\\Users\\jusht\\Documents\\projektai\\Todo\\Todo.csproj",
         "packagesPath": "C:\\Users\\jusht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jusht\\Documents\\projektai\\Todo\\obj\\",
+        "outputPath": "c:\\Users\\jusht\\Documents\\projektai\\Todo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jusht\\AppData\\Roaming\\NuGet\\NuGet.Config"
