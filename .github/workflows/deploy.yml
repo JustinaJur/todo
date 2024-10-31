@@ -17,4 +17,4 @@ jobs:
         uses: JustinaJur/rte@master
         with:
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
-          api-key: ${{ secrets.RENDER_API_KEY_RTE }}
+          api-key: ${{ secrets.RENDER_API_KEY_TODO }}
