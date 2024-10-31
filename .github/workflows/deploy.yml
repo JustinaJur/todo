@@ -1,20 +1,20 @@
-name: Deploy
+# name: Deploy
 
-on:
-  workflow_run:
-    workflows: ["Build and Deploy"]
-    types:
-      - completed
-  workflow_dispatch:
+# on:
+#   workflow_run:
+#     workflows: ["Build and Deploy"]
+#     types:
+#       - completed
+#   workflow_dispatch:
 
-jobs:
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
+# jobs:
+#   deploy:
+#     name: Deploy
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Deploy to production
-        uses: JustinaJur/todo@master
-        with:
-          service-id: ${{ secrets.RENDER_SERVICE_ID }}
-          api-key: ${{ secrets.RENDER_API_KEY_TODO }}
+#     steps:
+#       - name: Deploy to production
+#         uses: JustinaJur/todo@master
+#         with:
+#           service-id: ${{ secrets.RENDER_SERVICE_ID }}
+#           api-key: ${{ secrets.RENDER_API_KEY_TODO }}
