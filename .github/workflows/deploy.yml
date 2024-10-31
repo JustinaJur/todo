@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Deploy to production
-        uses: JustinaJur/rte@master
+        uses: JustinaJur/todo@master
         with:
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY_TODO }}
