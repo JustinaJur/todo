@@ -32,7 +32,7 @@ namespace DotnetWebApiWithEFCodeFirst
             app.MapControllers();
             // be sito swageris neveiktu ir dar kazkas
 
-            app.MapGet("/", () => "Hello Worlwwwddd! hell");
+            app.MapGet("/", () => "Hello Worlwwwddd! hell skskksks");
 
             app.Run();
         }
